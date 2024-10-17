@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from 'next/link';
 import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer';
 
 
 interface IProps {
@@ -10,11 +10,12 @@ interface IProps {
 export default function layout({ children }: IProps) {
     // const { children } = props
     return (
-        <div>
-            <Header/>
-            {children}
-            {/* <h1>layout</h1> */}
-            <footer>Footer</footer>
+        <div className="min-h-screen flex flex-col ">
+            <Header />
+            <main className="flex-grow h-62 border-2 border-red-700">
+                {children}
+            </main>
+            <Footer />
         </div>
     )
 }

@@ -1,6 +1,4 @@
 import { redirect } from "next/navigation";
-import Header from "./components/Header/Header";
-import Link from "next/link";
 
 export default function Home() {
   redirect("/about")
