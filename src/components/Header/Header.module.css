@@ -1,12 +1,10 @@
-/* Header.module.css */
 .header {
     background-color: #fff; 
-    /* padding: 1rem 2rem; */
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    border: 1px solid  #d11111
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  */
+    border: 1px solid  #d11111;
+    padding-inline: 10px;
 }
 
 .section {
