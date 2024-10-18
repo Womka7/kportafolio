@@ -16,13 +16,11 @@ export default function AboutPage() {
                 <div className="mb-6 text-whites">
                     <p className="mb-4">
                         Vengo de una familia cafetera, con valores como la perseverancia, la empatía y el trabajo en equipo. Me gusta conectar con las personas,
-                         construir relaciones de confianza y aportar positivamente. Tengo la convicción de que la amabilidad y el respeto son esenciales para lograr 
-                         cualquier objetivo. A nivel técnico trabajo en soluciones eficientes para una agradable experiencia de usuario.
-                          Cuento con experiencia en el desarrollo de sitios web y aplicaciones móviles con JavaScript, Next.js y Flutter.
+                        construir relaciones de confianza y aportar positivamente. Tengo la convicción de que la amabilidad y el respeto son esenciales para lograr
+                        cualquier objetivo. A nivel técnico trabajo en soluciones eficientes para una agradable experiencia de usuario.
+                        Cuento con experiencia en el desarrollo de sitios web y aplicaciones móviles con JavaScript, Next.js y Flutter.
                     </p>
                     <p className="text-lg mb-4  gap-2 flex flex-row">
-                        {/* ⭐ Figma ⭐ Developer
-                    ⭐ Figma ⭐ Developer */}
                         <FaReact />
                         <RiNextjsFill />
                         <SiFlutter />

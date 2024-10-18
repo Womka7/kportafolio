@@ -13,6 +13,7 @@ export default function Header() {
             <HeaderNavigate />
             <button className="bg-salmon text-whites px-6 py-2 rounded-full font-bold hover:bg-yellow-500 transition-colors">
                 Contáctame
+                <Link href="/contact" ></Link>
             </button>
         </header>
     )
