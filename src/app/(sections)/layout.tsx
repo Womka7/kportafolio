@@ -12,7 +12,7 @@ export default function layout({ children }: IProps) {
     return (
         <div className="min-h-screen flex flex-col ">
             <Header />
-            <main className="flex-grow bg-greenaqua">
+            <main className="flex-grow bg-greenaqua flex flex-row items-center ">
                 {children}
             </main>
             <Footer />

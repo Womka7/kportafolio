@@ -6,15 +6,17 @@ import HeaderNavigate from './Nav-header';
 
 export default function Header() {
     return (
-        <header className="bg-greenforest text-whites flex justify-between items-center px-8 py-2">
-            <section className="flex items-center">
+        <header className="bg-greenforest h-50 text-whites justify-between items-center  py-2">
+            <section className="flex justify-center items-center py-4">
                 <Link href="/about" ><Image src="/img/logo1.png" alt="logo-coffee" width={50} height={60} /></Link>
             </section>  
             <HeaderNavigate />
-            <button className="bg-salmon text-whites px-6 py-2 rounded-full font-bold hover:bg-yellow-500 transition-colors">
-                Contáctame
-                <Link href="/contact" ></Link>
-            </button>
+            <section className="flex justify-center items-center py-4  ">
+                <button className=" bg-salmon  text-whites px-6 py-4 rounded-full font-bold hover:bg-greenaqua transition-colors">
+                    Contáctame
+                    <Link href="/contact" ></Link>
+                </button>
+            </section>
         </header>
     )
 }

@@ -10,7 +10,7 @@ const navBarItems=[
 export default function HeaderNavigate() {
     return (
         <nav>
-            <div className='flex space-x-6 font-bold'>
+            <div className='flex justify-center gap-6 font-bold'>
                 {navBarItems.map((item,key) => (
                     <ItemNavBar path={item.path} title={item.title} key={key}/>
                 ))}

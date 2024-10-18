@@ -1,5 +1,13 @@
+import { Metadata } from 'next';
 import ProjectCard from '../../../components/CardProject/Card'; // Asegúrate de que la ruta sea correcta
 
+// Esta metadata lo que hace es darle información a cada página
+
+export const metadata: Metadata = {
+  title: "Proyectos-Karina Pineda Womka-Dev",
+  description: "Portafolio personal de Karina Pineda Womka-Dev frontend en riwi",
+  robots: {follow:true,index:true},
+};
 export default function ProjectsPage() {
   const projects = [
     {

@@ -5,6 +5,8 @@ import Head from "next/head";
 export const metadata: Metadata = {
   title: "Karina Pineda Womka-Dev",
   description: "Portafolio personal de Karina Pineda Womka-Dev frontend en riwi",
+  robots: {follow:true,index:true},
+  
 };
 
 export default function RootLayout({
@@ -28,7 +30,6 @@ export default function RootLayout({
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta name="revisit-after" content="15days" />
-        <link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon"/>
       </Head>
       <body>
         {children}

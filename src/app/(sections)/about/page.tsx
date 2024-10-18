@@ -6,7 +6,7 @@ import { SiDart, SiFlutter, SiTypescript } from "react-icons/si";
 
 export default function AboutPage() {
     return (
-        <div className="flex flex-col md:flex-row h-full bg-greenaqua text-gray-800 p-8">
+        <div className="flex flex-col md:flex-row bg-greenaqua text-gray-800 p-8">
             <article className="w-full md:w-2/3 pr-8">
                 <h1 className="text-4xl md:text-5xl font-bold text-whites uppercase mb-4">
                     hola! soy karina,<br />
@@ -32,14 +32,6 @@ export default function AboutPage() {
                         <FaPython />
                     </p>
                 </div>
-                {/* <div className="flex space-x-4">
-                    <button className="border border-gray-300 text-gray-700 px-6 py-2 rounded-full hover:bg-gray-100 transition-colors">
-                        Want to discuss?
-                    </button>
-                    <button className="bg-salmon text-white px-6 py-2 rounded-full hover:bg-yellow-500 transition-colors">
-                        Let's Talk.
-                    </button>
-                </div> */}
             </article>
             <article className="w-full md:w-1/3 mt-8 md:mt-0">
                 <div className="relative w-64 h-64 mx-auto">
