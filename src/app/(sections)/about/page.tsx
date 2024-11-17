@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="flex flex-col-reverse justify-center align-center px-12 py-4 bg-greenaqua text-gray-800  md:flex-row">
             <article className="w-full md:w-2/3">
                 <h1 className="text-lg font-bold text-whites uppercase mb-4 md:text-5xl">
-                    holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaq! soy karina,<br />
+                    hola! soy karina,<br />
                     una <span className="text-salmon">Frontend developer</span><br />
                     e ingeniera de sistemas <FaLaptopCode className=" text-2xl text-salmon inline-block " />
                 </h1>
